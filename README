@@ -1,0 +1,34 @@
+Flipdroid - README
+--------------------
+
+Introduction - background
+-------------------------
+
+This piece of software is a part of the Flipzu stack.
+
+Flipzu was an audio broadcasting system that would let you stream and listen to live audio broadcasts from your cell phone (Android & iOS) or web browser.
+
+The main focus was ease of use: you hit a button, and you were live on your social networks. 
+
+Opening in mid-2010, Flipzu gained a respectable regional traction but ceased operations as of 14th May 2012, due to lack and funding.
+
+This software is provided as-is, since it's not being developed or maintained any more. If you need some aditional information or help, please check the source code for contact information.
+
+
+Summary
+-------
+
+This is the Flipzu application for Android, that would let you stream and listen to live audio content from your cell phone.
+
+This was my first Android app and you could notice by looking at the messy code, BUT there's still interesting bits around, like FlipzuRecorderService.java, which is the multi-threaded recording, transcoding and broadcasting service. You should take a look at that if you aim at doing something similar.
+
+Usage instuctions
+-----------------
+
+Dependencies, besides what's included in the "libs" directory:
+
+- ActionBarSherlock: http://actionbarsherlock.com/
+- Facebook Android SDK, for facebook login: https://github.com/facebook/facebook-android-sdk
+
+Then import this directory with Eclipse, and start hacking.
+

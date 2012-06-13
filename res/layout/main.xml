@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+android:id="@+id/widget45"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:orientation="vertical"
+android:background="@drawable/background"
+xmlns:android="http://schemas.android.com/apk/res/android"
+>
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1">
+		<ImageView
+		android:id="@+id/widget39"
+		android:layout_width="wrap_content"
+		android:layout_height="fill_parent"
+		android:src="@drawable/logo_large" 
+		android:layout_gravity="center_vertical|center_horizontal">
+		</ImageView>
+	</LinearLayout>
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom|center_horizontal"
+    android:background="@drawable/container_icons">
+   		<TextView android:text="Sign in using:" 
+   			android:id="@+id/textView1" 
+   			android:layout_width="wrap_content" 
+   			android:layout_height="wrap_content"
+   			android:textSize="25dp"
+   			android:layout_gravity="center_horizontal"
+   			android:layout_marginTop="10dip"
+   			>
+   		</TextView>
+   		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    		android:orientation="horizontal"
+    		android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:paddingBottom="10dip"
+    		android:layout_gravity="bottom|center_horizontal">
+    		<Button android:layout_gravity="center_horizontal|center_vertical" 
+			android:layout_height="wrap_content"  
+			android:background="@drawable/fb_button"
+			android:layout_marginLeft="8dip"
+			android:layout_marginTop="10dip"  
+			android:layout_width="wrap_content"
+			android:contentDescription="@string/fb_login"
+			android:nextFocusRight="@+id/tw_login_but" 
+			android:nextFocusLeft="@+id/tw_login_but"
+			android:nextFocusUp="@+id/tw_login_but"
+			android:nextFocusDown="@+id/tw_login_but"
+			android:id="@+id/fb_login_but"></Button>
+			<TextView android:text="or" 
+   			android:id="@+id/textView2" 
+   			android:layout_width="wrap_content" 
+   			android:layout_height="wrap_content"
+   			android:textSize="25dp"
+   			android:layout_gravity="center_horizontal|center_vertical"
+   			>
+   			</TextView>
+   			<Button android:layout_gravity="center_horizontal|center_vertical"
+			android:layout_height="wrap_content" 
+			android:background="@drawable/tw_button" 
+			android:layout_width="wrap_content"
+			android:layout_marginTop="10dip" 
+			android:contentDescription="@string/tw_login"
+			android:nextFocusUp="@+id/fb_login_but"
+			android:nextFocusDown="@+id/fb_login_but"
+			android:nextFocusLeft="@+id/fb_login_but"
+			android:nextFocusRight="@+id/fb_login_but"
+			android:id="@+id/tw_login_but"></Button>
+    	</LinearLayout>
+	</LinearLayout>
+</LinearLayout>

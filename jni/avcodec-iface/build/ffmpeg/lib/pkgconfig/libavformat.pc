@@ -1,0 +1,14 @@
+prefix=../build/ffmpeg
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: libavformat
+Description: FFmpeg container format library
+Version: 52.71.0
+Requires: 
+Requires.private: libavcodec = 52.78.0
+Conflicts:
+Libs: -L${libdir} -lavformat 
+Libs.private: -lgcc
+Cflags: -I${includedir}

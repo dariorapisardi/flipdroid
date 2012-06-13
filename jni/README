@@ -1,0 +1,13 @@
+How to build this package:
+
+${PATH_TO_YOUR_NDK}/ndk-build
+
+That's it!
+
+Tested with Android NDK version r5b.
+
+Questions/suggestions, please contact dario@rapisardi.org
+
+Best!
+
+Flipzu Team

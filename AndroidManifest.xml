@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest android:versionCode="35" android:versionName="1.1.3"
+    package="com.flipzu.flipzu" xmlns:android="http://schemas.android.com/apk/res/android">
+    <application android:hardwareAccelerated="true"
+        android:icon="@drawable/icon" android:label="@string/app_name">
+        <activity android:label="@string/app_name"
+            android:name=".Flipzu" android:theme="@android:style/Theme.NoTitleBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/app_name"
+            android:launchMode="singleTop" android:logo="@drawable/logo"
+            android:name=".Recorder" android:theme="@style/Theme.Flipzu" class="Recorder"/>
+        <activity android:label="@string/app_name"
+            android:logo="@drawable/logo" android:name=".Listings"
+            android:theme="@style/Theme.Flipzu" class="Listings"/>
+        <activity android:label="@string/app_name"
+            android:name=".TwLogin" android:theme="@android:style/Theme.NoTitleBar"/>
+        <activity android:label="@string/app_name"
+            android:name=".FbLogin" android:theme="@android:style/Theme.NoTitleBar"/>
+        <activity android:label="@string/app_name"
+            android:launchMode="singleTop" android:logo="@drawable/logo"
+            android:name=".Player" android:theme="@style/Theme.Flipzu" class="Player">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="android.flipzu.com" android:scheme="http"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.google.ads.AdActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <service android:name=".FlipzuPlayerService"/>
+        <service android:name=".FlipzuRecorderService"/>
+        <activity android:name=".Profile" android:theme="@style/Theme.Flipzu"/>
+        <activity android:name=".ProfileImage" android:theme="@style/Theme.Flipzu"/>
+    </application>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-sdk android:minSdkVersion="7" android:targetSdkVersion="14"/>
+</manifest>

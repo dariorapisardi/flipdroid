@@ -1,0 +1,72 @@
+install prefix            ../build/ffmpeg
+source path               /home/dario/flipzu/mobile/android/jni/ffmpeg
+C compiler                arm-eabi-gcc
+ARCH                      arm (generic)
+big-endian                no
+runtime cpu detection     no
+ARMv5TE enabled           yes
+ARMv6 enabled             no
+ARMv6T2 enabled           no
+ARM VFP enabled           no
+IWMMXT enabled            no
+NEON enabled              no
+gprof enabled             no
+debug symbols             yes
+strip symbols             yes
+optimizations             small
+static                    yes
+shared                    yes
+postprocessing support    no
+new filter support        yes
+filters using lavformat   no
+network support           yes
+threading support         pthreads
+SDL support               no
+Sun medialib support      no
+AVISynth enabled          no
+libdc1394 support         no
+libdirac enabled          no
+libfaac enabled           no
+libgsm enabled            no
+libmp3lame enabled        no
+libnut enabled            no
+libopencore-amrnb support no
+libopencore-amrwb support no
+libopenjpeg enabled       no
+librtmp enabled           no
+libschroedinger enabled   no
+libspeex enabled          no
+libtheora enabled         no
+libvorbis enabled         no
+libvpx enabled            no
+libx264 enabled           no
+libxvid enabled           no
+zlib enabled              no
+bzlib enabled             no
+
+Enabled decoders:
+
+Enabled encoders:
+
+Enabled hwaccels:
+
+Enabled parsers:
+
+Enabled demuxers:
+
+Enabled muxers:
+
+Enabled protocols:
+
+Enabled filters:
+buffer
+
+Enabled bsfs:
+
+Enabled indevs:
+
+Enabled outdevs:
+
+License: LGPL version 2.1 or later
+Creating config.mak and config.h...
+libavutil/avconfig.h is unchanged

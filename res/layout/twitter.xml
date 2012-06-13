@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+android:id="@+id/widget45"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:orientation="vertical"
+android:background="@drawable/background"
+xmlns:android="http://schemas.android.com/apk/res/android"
+>
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:layout_weight="1">
+		<ImageView
+		android:id="@+id/widget39"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:src="@drawable/logo_large"
+		android:layout_gravity="center_horizontal|center_vertical">
+		</ImageView>
+	</LinearLayout>
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:gravity="center"
+	android:layout_weight="1">
+		<EditText
+		android:id="@+id/tw_username_et"
+		android:layout_width="250dip"
+		android:layout_height="wrap_content"
+		android:layout_marginBottom="5dip"
+		android:textSize="18sp"
+		android:hint="Twitter username"
+		android:layout_gravity="center_horizontal"
+		android:background="@drawable/textbox"
+		android:paddingLeft="10dip"
+		android:textColor="#e0e0e0"
+		android:singleLine="true">
+		</EditText>
+		<EditText
+		android:id="@+id/tw_password_et"
+		android:layout_width="250dip"
+		android:layout_height="wrap_content"
+		android:textSize="18sp"
+		android:password="true"
+		android:hint="Twitter password"
+		android:background="@drawable/textbox"
+		android:paddingLeft="10dip"
+		android:textColor="#e0e0e0"
+		android:layout_gravity="center_horizontal">
+		</EditText>
+	</LinearLayout>
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:gravity="center"
+	android:layout_weight="1">
+		<Button
+		android:id="@+id/tw_login_but"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_horizontal|bottom"
+		android:contentDescription="@string/login"
+		android:background="@drawable/tw_login_button">
+		</Button>
+	</LinearLayout>
+</LinearLayout>
+

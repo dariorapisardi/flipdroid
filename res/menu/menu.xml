@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+   <item android:title="Refresh" 
+   	android:id="@+id/refresh" 
+   	android:icon="@drawable/ic_menu_refresh"
+   	android:showAsAction="ifRoom"/>
+   	
+   <item android:title="Select View" 
+   	android:id="@+id/listings" 
+   	android:icon="@drawable/ic_menu_allfriends"/>
+   	
+   <item android:id="@+id/search"
+	android:icon="@drawable/ic_menu_search"
+        android:title="Search"
+        android:showAsAction="always" />
+        
+   <item android:id="@+id/logout"
+	android:icon="@drawable/ic_menu_revert"
+        android:title="Logout" />
+         
+   <item android:id="@+id/about"
+	android:icon="@drawable/ic_menu_info_details"
+        android:title="About" />
+</menu>

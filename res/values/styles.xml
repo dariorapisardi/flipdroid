@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Flipzu" parent="style/Theme.Sherlock.Light">
+<!--   	<item name="selectableItemBackground">@color/actionbar_bg</item>
+    	<item name="android:actionBarItemBackground">@color/actionbar_bg</item>
+    	<item name="android:itemBackground">@color/actionbar_bg</item>  --> 
+    	<item name="abLogo">@drawable/logo</item>
+    	<item name="actionBarTabStyle">@style/MyActionBarTabStyle</item>
+    	<item name="android:actionMenuTextColor">#ffffff</item>
+	</style>
+	<style name="MyActionBarTabStyle" parent="Widget.Sherlock.Light.ActionBar.TabView">
+<!--    <item name="android:background">@color/actionbar_bg</item> -->
+        <item name="android:paddingLeft">8dip</item>
+        <item name="android:paddingRight">8dip</item>                    
+    </style>
+    <style name="blue_edittext" parent="@android:style/Widget.EditText">
+	 	<item name="android:focusable">true</item>
+	 	<item name="android:focusableInTouchMode">true</item>
+	 	<item name="android:clickable">true</item>
+	 	<item name="android:background">@drawable/blue_edit_text</item>
+	 	<item name="android:gravity">center_vertical</item>
+ 	</style>
+</resources>
